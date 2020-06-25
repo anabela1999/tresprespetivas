@@ -61,7 +61,7 @@ function mouseDragged () {
   timeUntil++;
  // print(timeUntil);
   
-  if ( timeUntil < 1500) { //para aparecer a imagem logo que comece a raspar
+  if ( timeUntil < 1800) { //para aparecer a imagem logo que comece a raspar
     
   let f = flowers1.get(mouseX,mouseY,70,70);
    //tamanho dos pixeis
@@ -72,7 +72,7 @@ function mouseDragged () {
   
   
   
-      if (timeUntil > 1500) {  //após o tempo anterior começar a aparecer a segunda ilustração
+      if (timeUntil > 1800) {  //após o tempo anterior começar a aparecer a segunda ilustração
     noSmooth();
         
     let m = monster1.get(mouseX,mouseY,70,70); //tamanho dos pixeis
@@ -81,7 +81,7 @@ function mouseDragged () {
    image(m, mouseX, mouseY); //para raspar tb nos cantos da imagem
   
       }
- if (timeUntil > 2500) {  //após o tempo anterior começar a aparecer a segunda ilustração
+ if (timeUntil > 3200) {  //após o tempo anterior começar a aparecer a segunda ilustração
     noSmooth();
       let h = happy1.get(mouseX,mouseY,70,70);
  //tamanho dos pixeis
@@ -90,7 +90,7 @@ function mouseDragged () {
     image(h, mouseX, mouseY); //para raspar tb nos cantos da imagem
   }
   
-  if(timeUntil >3800) { 
+  if(timeUntil >4000) { 
     
     timeUntil = 0;
     
