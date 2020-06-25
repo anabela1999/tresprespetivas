@@ -90,7 +90,7 @@ function mouseDragged () {
     image(h, mouseX, mouseY); //para raspar tb nos cantos da imagem
   }
   
-  if(timeUntil >8000) { 
+  if(timeUntil >7000) { 
     
     timeUntil = 0;
     
