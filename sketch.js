@@ -72,7 +72,7 @@ function mouseDragged () {
   
   
   
-      if (timeUntil > 2700) {  //após o tempo anterior começar a aparecer a segunda ilustração
+      if (timeUntil > 2400) {  //após o tempo anterior começar a aparecer a segunda ilustração
     noSmooth();
         
     let m = monster1.get(mouseX,mouseY,70,70); //tamanho dos pixeis
@@ -81,7 +81,7 @@ function mouseDragged () {
    image(m, mouseX, mouseY); //para raspar tb nos cantos da imagem
   
       }
- if (timeUntil > 5200) {  //após o tempo anterior começar a aparecer a segunda ilustração
+ if (timeUntil > 4900) {  //após o tempo anterior começar a aparecer a segunda ilustração
     noSmooth();
       let h = happy1.get(mouseX,mouseY,70,70);
  //tamanho dos pixeis
@@ -90,7 +90,7 @@ function mouseDragged () {
     image(h, mouseX, mouseY); //para raspar tb nos cantos da imagem
   }
   
-  if(timeUntil >7000) { 
+  if(timeUntil >6700) { 
     
     timeUntil = 0;
     
